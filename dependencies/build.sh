@@ -10,7 +10,8 @@ yum -y install php-devel
 yum -y install php-gd 
 yum -y install php-drush-drush 
 yum -y install mysql-server 
-yum -y install php-mysql 
+yum -y install php-mysql
+yum -y install nano
 
 echo "Configuring new system..."
 echo "AddHandler php5-script .php" >> /etc/httpd/conf/httpd.conf
