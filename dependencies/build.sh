@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 
 yum -y install epel-release 
-yum -y install vim 
-yum -y install git 
-yum -y install tmux 
 yum -y install httpd 
 yum -y install php 
 yum -y install php-devel 
@@ -11,6 +8,8 @@ yum -y install php-gd
 yum -y install php-drush-drush 
 yum -y install mysql-server 
 yum -y install php-mysql
+yum -y install git 
+yum -y install vim 
 yum -y install nano
 
 echo "Configuring new system..."
